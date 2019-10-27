@@ -1,0 +1,131 @@
+body {
+	background-color: rgb(22,15,41);
+	color: rgb(30,30,30);
+	font-family: Courier;
+	font-size: 17px;
+	line-height: 1.6;
+	font-weight: lighter;
+	text-align: center;
+	text-decoration: none;
+	}
+
+h2,h3 {	
+font-family: courier monospace;
+}
+
+h1 {
+	color: rgb(22,15,41);
+	font-weight: 900;
+	font-size: 54px;
+	font-family: Staatliches;
+	font-weight: bold;
+	}
+h2 {
+	font-size: 28px;
+	color: rgb(22,15,41);
+	background-color: rgb(192,174,128);
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 10px;
+	}	
+
+a {
+	text-decoration: none;
+	color: rgb(22,15,41);
+	transition: color 0.3s ease;
+}	
+a:hover {
+	color: white;
+}
+
+// customer design ID and class
+
+#profilepicture {
+	border-radius: 10px;
+	display: block;
+}
+
+.roundimage {
+	border-radius: 80%;
+	height: 100px;
+	box-shadow: 0px 8px 10px rgba(0,0,0,0.3); 
+}
+
+.roundimage:hover {
+	height: 120px;
+	transition: height 0.3s ease;
+}
+
+.divroundcentered {
+	background: rgb(230,230,230);
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 18px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(22,15,41);
+}
+
+.list-inline i:hover {
+	font-size: 60px;
+	color: rgb(192,174,128);
+	transition: font-size 0.3s ease;
+}
+
+.button-sand {
+background-color: rgb(22,15,41);
+color: white;
+padding: 15px 20px;
+border-radius: 10px;
+}
+
+.button-sand:hover {
+	background-color: rgb(192,174,128);
+	transition: background-color 0.3s ease;
+	padding: 20px 25px;
+	transition: padding 0.3s ease;
+	font-size: 20px;
+	transition: font-size 0.3s ease;
+
+}
+
+
+#introduction {
+	margin-bottom: 40px;
+}
